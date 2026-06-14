@@ -91,13 +91,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp LS(NUMBER_6)  &kp LS(NON_US_BACKSLASH)  &kp LS(NON_US_BACKSLASH)  &kp PLUS              &kp MINUS                          &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACE)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LS(NUMBER_7)
-&kp DOLLAR        &kp EXCLAMATION           &kp QUESTION              &kp LEFT_PARENTHESIS  &kp SLASH                          &kp LS(NUMBER_8)      &kp LS(NUMBER_9)     &kp LESS_THAN     &kp GREATER_THAN      &kp LS(NUMBER_2)
-&kp LS(NUMBER_7)  &kp AT_SIGN               &kp SEMI                  &kp PIPE              &kp RIGHT_BRACKET                  &kp SEMICOLON         &kp COLON            &kp SLASH         &kp NON_US_BACKSLASH  &kp GRAVE
-&trans            &trans                    &trans                    &trans                &trans             &trans  &trans  &trans                &trans               &trans            &trans                &trans
-                  &trans                    &trans                    &trans                &trans             &trans  &trans  &trans                &trans               &trans            &trans
-&trans            &trans                    &trans                                                                                                                        &trans            &trans                &trans
-&trans            &trans                    &trans                    &trans                &trans                             &trans                &trans               &trans            &trans                &trans
+&kp EQUAL         &kp LS(EQUAL)    &kp LS(INT1)  &kp LS(SEMI)  &kp MINUS                      &kp LS(RBKT)      &kp LS(NUHS)      &kp RBKT       &kp NUHS          &kp LS(NUMBER_7)
+&kp DOLLAR        &kp EXCLAMATION  &kp QUESTION  &kp LS(SQT)   &kp SLASH                      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(NUMBER_2)
+&kp LS(NUMBER_7)  &kp LBKT         &kp LS(N3)    &kp LS(INT3)  &kp LS(MINUS)                  &kp SEMI          &kp SQT           &kp SLASH      &kp INT1          &kp LS(INT3)
+&trans            &trans           &trans        &trans        &trans         &trans  &trans  &trans            &trans            &trans         &trans            &trans
+                  &trans           &trans        &trans        &trans         &trans  &trans  &trans            &trans            &trans         &trans
+&trans            &trans           &trans                                                                                         &trans         &trans            &trans
+&trans            &trans           &trans        &trans        &trans                         &trans            &trans            &trans         &trans            &trans
             >;
         };
 
