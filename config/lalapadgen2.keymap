@@ -91,13 +91,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp EQUAL         &kp LS(EQUAL)    &kp LS(INT1)  &kp LS(SEMI)  &kp MINUS                      &kp LS(RBKT)      &kp LS(NUHS)      &kp RBKT       &kp NUHS          &kp LS(NUMBER_7)
-&kp DOLLAR        &kp EXCLAMATION  &kp QUESTION  &kp LS(SQT)   &kp SLASH                      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(NUMBER_2)
-&kp LS(NUMBER_7)  &kp LBKT         &kp LS(N3)    &kp LS(INT3)  &kp LS(MINUS)                  &kp SEMI          &kp SQT           &kp SLASH      &kp INT1          &kp LS(INT3)
-&trans            &trans           &trans        &trans        &trans         &trans  &trans  &trans            &trans            &trans         &trans            &trans
-                  &trans           &trans        &trans        &trans         &trans  &trans  &trans            &trans            &trans         &trans
-&trans            &trans           &trans                                                                                         &trans         &trans            &trans
-&trans            &trans           &trans        &trans        &trans                         &trans            &trans            &trans         &trans            &trans
+&kp EQUAL   &kp LS(EQUAL)    &kp LS(INT1)  &kp LS(SEMI)  &kp MINUS                      &kp LS(RBKT)      &kp LS(NUHS)      &kp RBKT       &kp NUHS          &kp LS(NUMBER_7)
+&kp DOLLAR  &kp EXCLAMATION  &kp QUESTION  &kp LS(SQT)   &kp SLASH                      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(NUMBER_2)
+&kp LS(N6)  &kp LBKT         &kp LS(N3)    &kp LS(INT3)  &kp LS(MINUS)                  &kp SEMI          &kp SQT           &kp SLASH      &kp INT1          &kp GRAVE
+&trans      &trans           &trans        &trans        &trans         &trans  &trans  &trans            &trans            &trans         &trans            &trans
+            &trans           &trans        &trans        &trans         &trans  &trans  &trans            &trans            &trans         &trans
+&trans      &trans           &trans                                                                                         &trans         &trans            &trans
+&trans      &trans           &trans        &trans        &trans                         &trans            &trans            &trans         &trans            &trans
             >;
         };
 
