@@ -91,13 +91,13 @@
         TERTIARY_LAYER {
             display-name = "tertiary_layer";
             bindings = <
-&kp LCTRL      &kp TILDE        &kp UNDERSCORE  &kp PLUS              &kp MINUS                          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&kp DOLLAR     &kp EXCLAMATION  &kp QUESTION    &kp LEFT_PARENTHESIS  &kp SLASH                          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN     &kp GREATER_THAN      &kp DOUBLE_QUOTES
-&kp AMPERSAND  &kp AT_SIGN      &kp SEMI        &kp PIPE              &kp RIGHT_BRACKET                  &kp SEMICOLON         &kp COLON              &kp SLASH         &kp NON_US_BACKSLASH  &kp GRAVE
-&trans         &trans           &trans          &trans                &trans             &trans  &trans  &trans                &trans                 &trans            &trans                &trans
-               &trans           &trans          &trans                &trans             &trans  &trans  &trans                &trans                 &trans            &trans
-&trans         &trans           &trans                                                                                                                &trans            &trans                &trans
-&trans         &trans           &trans          &trans                &trans                             &trans                &trans                 &trans            &trans                &trans
+&kp LS(NUMBER_6)  &kp LS(GRAVE)    &kp LS(MINUS)  &kp PLUS              &kp MINUS                          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
+&kp DOLLAR        &kp EXCLAMATION  &kp QUESTION   &kp LEFT_PARENTHESIS  &kp SLASH                          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN     &kp GREATER_THAN      &kp DOUBLE_QUOTES
+&kp LS(NUMBER_7)  &kp AT_SIGN      &kp SEMI       &kp PIPE              &kp RIGHT_BRACKET                  &kp SEMICOLON         &kp COLON              &kp SLASH         &kp NON_US_BACKSLASH  &kp GRAVE
+&trans            &trans           &trans         &trans                &trans             &trans  &trans  &trans                &trans                 &trans            &trans                &trans
+                  &trans           &trans         &trans                &trans             &trans  &trans  &trans                &trans                 &trans            &trans
+&trans            &trans           &trans                                                                                                               &trans            &trans                &trans
+&trans            &trans           &trans         &trans                &trans                             &trans                &trans                 &trans            &trans                &trans
             >;
         };
 
